@@ -1,16 +1,19 @@
 {
   "name": "movie-finder-data",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --exit"
+    "test": "mocha test --exit",
+    "start": "node server/index.js"
   },
-  "author": "",
+  "author": "GianFiyah",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
-    "morgan": "^1.9.1"
+    "body-parser": "^1.18.3",
+    "jquery": "^3.4.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.9.0",
@@ -18,5 +21,17 @@
     "chai-http": "^4.2.1",
     "express": "^4.16.4",
     "mocha": "^6.1.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianFiyah/node101-movie-finder-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GianFiyah/node101-movie-finder-data/issues"
+  },
+  "homepage": "https://github.com/GianFiyah/node101-movie-finder-data#readme",
+  "description": ""
 }
